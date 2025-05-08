@@ -1,0 +1,47 @@
+{
+    "args" :
+    [
+        {"title": "QString"}, {"img": "QString"}, {"font": "int"}, {"align": "QString"}, {"children": "QJsonArray"}
+    ],
+    "data" :
+    [
+            {
+                    "title" : "用户管理",
+                    "img" : ":/resource/userMg.png",
+                    "font" : 20,
+                    "align" : "center",
+                    "children" :
+                    [
+                        {
+                            "title" : "用户账号",
+                            "font" : 20,
+                            "align" : "left"
+                        },
+                        {
+                            "title" : "用户信息",
+                            "font" : 20,
+                            "align" : "left"
+                        }
+                    ]
+            },
+            {
+                    "title" : "服务器",
+                    "img" : ":/resource/serverMg.png",
+                    "font" : 20,
+                    "align" : "center",
+                    "children" :
+                    [
+                        {
+                            "title" : "消息服务器",
+                            "font" : 20,
+                            "align" : "left"
+                        },
+                        {
+                            "title" : "文件服务器",
+                            "font" : 20,
+                            "align" : "left"
+                        }
+                    ]
+            }
+    ]
+}

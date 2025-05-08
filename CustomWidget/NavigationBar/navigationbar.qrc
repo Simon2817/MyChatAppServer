@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/serverMg.png</file>
+        <file>resource/userMg.png</file>
+        <file>resource/navigation_bar.json</file>
+    </qresource>
+</RCC>
