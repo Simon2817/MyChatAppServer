@@ -21,7 +21,9 @@ AdminLoginPage::AdminLoginPage(QWidget *parent) :
     connect(this, &AdminLoginPage::adminLogin, m_controller, &LonginController::on_adminLogin_handel);
     connect(m_controller, &LonginController::adminLoginSucceed, this, &AdminLoginPage::on_adminLoginSucceed_handel);
     connect(m_controller, &LonginController::adminLoginFail, this, &AdminLoginPage::on_adminLoginFail_handel);
+    {
 
+    }
     // 初始化界面
     initPage();
 }
